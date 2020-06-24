@@ -3,9 +3,9 @@ window.onload = function () {
 
   var breath_counter = 30;
 
-  breathe.addEventListener("animationStart", animationStart);
-  breathe.addEventListener("animationIteration", animationRepeat);
-  breathe.addEventListener("animationEnd", animationEnd);
+  breathe.addEventListener("webkitAnimationStart", animationStart);
+  breathe.addEventListener("webkitAnimationIteration", animationRepeat);
+  breathe.addEventListener("webkitAnimationEnd", animationEnd);
 
   function animationStart() {
     this.innerHTML = breath_counter;
