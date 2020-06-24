@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(34, 35, 38);
+}
+
 .bounds {
   background-color: lightblue;
   width: 250px;
