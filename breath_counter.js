@@ -2,9 +2,9 @@ var breathe = document.getElementById("breathe");
 
 var breath_counter = 30;
 
-breathe.addEventListener("webkitAnimationStart", animationStart);
-breathe.addEventListener("webkitAnimationIteration", animationRepeat);
-breathe.addEventListener("webkitAnimationEnd", animationEnd);
+breathe.addEventListener("animationStart", animationStart);
+breathe.addEventListener("animationIteration", animationRepeat);
+breathe.addEventListener("animationEnd", animationEnd);
 
 function animationStart() {
   this.innerHTML = breath_counter;
